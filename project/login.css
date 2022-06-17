@@ -1,0 +1,97 @@
+#logo{
+    height:150px;
+    width:350px;
+    margin: auto;
+    display: block;
+}
+
+#login{
+    /* border:1px solid red; */
+    display: flex;
+
+}
+
+#login>div>div{
+    display: flex;
+    justify-content: space-around;
+    /* border:1px solid blue; */
+    width:70%;
+    margin:auto;
+    color:#222222;
+    font-weight: bold;
+}
+#login>div:first-child{
+    width:45%;
+    border: 1px solid black;
+}
+#login>div>div+div{
+    margin: auto;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-weight: bold;
+}
+#otpheading{
+    margin: auto;
+    text-align: center;
+    margin-top: -22px;
+    background-color: white;
+    
+}
+#otpheading>h1{
+    color:#222222;
+}
+#phone{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#phone+div{
+    background-color: #222222;
+    color: white;
+    padding:15px 50px;
+}
+#phone+div>button{
+    background-color: #222222;
+    border: none;
+    color:white;
+    font-weight: bold;
+}
+#pass{
+    border: 1px solid black;
+    padding:15px 50px;
+}
+#pass+div{
+    border: 1px solid black;
+    padding:15px 50px;
+}
+#right{
+    border-left: 2px solid #222222;
+}
+#right>h3:first-child{
+    display: inline;
+    font-size: 22px;
+    margin-left: 100px;
+}
+#right>h3+span{
+    font-size: 22px;
+    font-weight: bold;
+}
+#right>h3+span+h3{
+   margin-left: 100px;
+}
+#right>h3+span+h3+ul{
+    margin-left: 120px;
+}
+#sup{
+    margin: auto;
+    padding:15px 50px;
+    border: 2px solid #222222;
+   
+}
+#sup:hover{
+    background-color: #222222;
+    color:white;
+    font-weight: bold;
+}

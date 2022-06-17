@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <h1 id="carthead">CART: <sapn>1</sapn> ITEM</h1>
+    <div id="cart">
+        <div id="leftcart">
+            <div>
+                <div>ITEM(S)</div>
+                <div>QUANTITY</div>
+                <div>TOTAL</div>
+            </div>
+            <div>
+                <div>
+                    <img src="https://staticimg.titan.co.in/Fastrack/Catalog/38072AP01_1.jpg?pView=listing" alt="">
+                </div>
+                <div>
+                    <div id="middle">
+                        <a href="#">REFLEX VOX DIGITAL SILICONE BLACK STRAP WATCH</a>
+                        <p>38072AP01</p>
+                        <span>₹4995</span> <span id="cancel">₹6995</span> <span>(29% off)</span>
+                    </div>
+                    
+                    <div id="add">
+                        <button id="dec">-</button><input id="quantitybox" type="text" value="1"></input><button id="inc">+</button><br>
+                        <a href="#">  REMOVE ITEM</a>
+                    </div>
+                </div>
+                <div id="finalprice"> 4995</div>
+            </div>
+            <div id="WISHLIST"><select name="" id=""><option value="ADD TO WISHLIST">ADD TO WISHLIST</option></select></div>
+            <hr>
+            <div id="bottom">
+                <div>
+                    <label for="">SHOPING METHOD</label><br>
+                    <div id="delv">HOME DELIVERY</div><button>PICKUP IN STORE</button>
+                </div>
+                <div id="mid">
+                    <label for="">COUNTRY</label><br>
+                    <select name="" id=""><option value="">india</option></select>
+                </div>
+                <div id="last">
+                    <label for="">PIN-CODE/ZIP-CODE</label><br>
+                    <input type="text"><button>CHECK</button>
+                </div>
+            </div>
+        </div>
+       
+        
+        <div id="rightcart">
+            <h2>ORDER SUMMARY</h2>
+            <a href="#">ENTER VOCHER CODE</a><a id="promo">VIWE PROMOCODE</a><br><hr>
+            <input id="code" type="text" placeholder="Enter code"><button id="apply">APPLY</button>
+            <div id="SUMMERY">
+                <div>
+                 <span>order total</span>  <span id="ordertotal">₹6995</span>
+                </div>
+                <div>
+                    <span>Shipping</span>   <span>FREE</span>
+                </div>
+                <div>
+                    <span>Discount</span>   <span id="discount">-₹2000</span>
+                </div>
+                <div>
+                    <span>You Pay</span>   <span id="subtotal">₹4995</span>
+                </div>
+                <div>
+                    INCLUSIVE OF ALL TAXES;
+                </div>
+                <div>
+                    <button id="checkout">PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="cart.js"></script>

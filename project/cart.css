@@ -1,0 +1,164 @@
+#carthead{
+    font-size: 32px;
+}
+#cart{
+    display: flex;
+}
+#leftcart{
+    height:500px;
+    width:60%;
+    /* border:1px solid red; */
+    margin-left: 100px;
+}
+#leftcart>div:first-child{
+    display: flex;
+   justify-content: space-around;
+   padding: 15px 0px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#leftcart>div:first-child>div{
+    font-weight: bold;
+    color:#222222;
+}
+#leftcart>div:nth-child(2){
+    display: flex;
+    /* border:1px solid blue; */
+}
+#leftcart>div:nth-child(2)>div>img{
+    height:167px;
+    width:167px;
+}
+#leftcart>div:nth-child(2)>div{
+    display: flex;
+}
+#cancel{
+    color:#8c8c8c;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+#cancel+span{
+    color:red;
+    font-weight: bold;
+}
+#add>button{
+    padding: 15px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+#add input{
+    height:30px;
+    width:30px;
+    background-color: white;
+    text-align: center;
+}
+#add{
+    margin-top: 100px;
+    margin-right: 15px;
+}
+a{
+    color:#222222;
+}
+#middle{
+    margin-left: 50px;
+}
+#finalprice{
+    margin-top: 60px;
+}
+#WISHLIST{
+    margin:auto;
+    text-align: center;
+}
+#WISHLIST>select{
+    height:50px;
+    width:30%;
+    margin-left: -25%;
+    background-color: #f6f6f6;
+    border: none;
+    margin-top: 20px;
+}
+#bottom{
+    display: flex;
+}
+#delv{
+    display: inline;
+    background-color: #222222;
+    padding: 15px;
+    color:white;
+}
+#delv+button{
+    padding: 15px;
+    background-color: white;
+}
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#mid{
+    margin-left: 20px;
+}
+#mid select{
+    height:50px;
+    width:200px;
+    background-color: #f6f6f6;
+    border: none;
+}
+#mid>label{
+    color:#8c8c8c;
+}
+#last{
+    margin-left: 100px;
+    margin-top: -7px;
+}
+#last>label{
+    color:#8c8c8c;
+
+}
+#last input{
+    height:50px;
+    width:100px;
+    border: none;
+    background-color: #f6f6f6;
+    margin-top: 20px;
+}
+#last button{
+    padding:15px 20px;
+    background-color: white;
+}
+
+#rightcart{
+    margin-top: -50px;
+    margin-left: 20px;
+}
+h2+a+a{
+    margin-left: 10px;
+}
+#rightcart input{
+    height:40px;
+    width:250px;
+    background-color: #f6f6f6;
+    margin-right: 10px;
+    border: none;
+}
+#rightcart button{
+    padding:15px 20px;
+    background-color:white;
+
+}
+#SUMMERY{
+    margin-top: 100px;
+}
+#SUMMERY>div{
+    display: flex;
+    justify-content: space-between;
+}
+#SUMMERY button{
+    padding:20px 100px;
+    background-color: #222222;
+    color:white;
+    margin-top: 50px;
+}
+#SUMMERY>div:nth-child(4)>span{
+    font-size: 25px;
+    font-weight: bold;
+}

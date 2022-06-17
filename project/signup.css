@@ -1,0 +1,92 @@
+
+#logo img{
+    height:100px;
+    margin: auto;
+    display: block;
+    text-align: center; 
+}
+#logo+h1{
+    text-align: center;
+    font-size: 22px;
+    color:#222222;
+    font-weight: bold
+}
+#details{
+ margin: auto;
+ height:auto;
+ width:40%;
+ border:1px solid black;
+ margin-top: -25px;
+ border-top: none;
+}
+#prefix{
+    background-color: rgb(246, 242, 242);
+    padding: 9px 33px 9px 17px;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-right: 15px;
+    border: none;
+}
+select+input{
+    padding: 9px 40px 9px 17px;
+    background-color: rgb(246, 242, 242);
+    border: none;
+}
+input+input{
+    padding: 10px 98px 10px 98px;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: rgb(246, 242, 242);
+    border: none;
+}
+#numb{
+    background-color: rgb(246, 242, 242);
+    padding: 9px 33px 9px 17px;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-right: 15px;
+    border: none;
+}
+#numb+input{
+    padding: 9px 40px 9px 40px;
+    background-color: rgb(246, 242, 242);
+    border: none;
+}
+#numb+input+input{
+    padding: 10px 98px 10px 98px;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: rgb(246, 242, 242);
+    border: none;
+}
+#numb+input+input{
+    padding: 10px 98px 10px 98px;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: rgb(246, 242, 242);
+    border: none;
+}
+#tc{
+    margin-left:25%;
+    margin-top: 5%;
+}
+#whats{
+    height:15px;
+}
+#whats+span{
+    color:green;
+}
+#register{
+    background-color: #222222;
+    color: white;
+    padding: 10px 44%;
+    margin-top: 5%;
+    margin-left: 0%;
+ 
+}
+#register:hover{
+    background-color: white;
+    color: #222222;
+   
+ 
+}
